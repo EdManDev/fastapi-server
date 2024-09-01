@@ -105,6 +105,54 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "update Article by ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles/9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete Article by ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/articles/9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"articles",
+						"9"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }

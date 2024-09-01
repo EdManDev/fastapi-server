@@ -18,4 +18,12 @@ def read_articles():
 
 @router.get("/{article_id}", response_model=dict)
 def read_article(article_id: int):
-    return {"message": f"get id:{article_id}"}
+    return {"message": f"get id: {article_id}"}
+
+@router.put("/{article_id}", response_model=dict)
+def update_article(article_id: int):
+    return {"message": f"put id: {article_id}"}
+
+@router.delete("/{article_id}", response_model=dict)
+def remove_article(article_id: int):
+    return {"message": f"delete id: {article_id}"}
